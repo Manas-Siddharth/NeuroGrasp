@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+.pytest_tmp/
+
+# PyTorch / Checkpoints
+*.pt
+*.ckpt
+checkpoints/*
+!checkpoints/.gitkeep
+!checkpoints/best_model.pth
+
+# Data & Large Files
+data/jacquard/
+data/*.zip
+data/*.tar.gz
+data/*.tar
+data/*.gz
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Large trained model checkpoint
+checkpoints/*.pth

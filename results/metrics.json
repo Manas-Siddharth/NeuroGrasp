@@ -1,0 +1,15 @@
+{
+    "val_loss": 0.08932435065507889,
+    "mean_position_error_px": 18.117120196759537,
+    "mean_width_error_px": 7.100166320800781,
+    "mean_height_error_px": 3.4105803966522217,
+    "mean_angle_error_deg": 7.479273662144709,
+    "mean_iou": 0.058757605168648294,
+    "grasp_success_rate": 0.1,
+    "avg_inference_latency_ms": 6.045902768770854,
+    "total_validation_samples": 40,
+    "success_criteria": {
+        "iou_threshold": 0.25,
+        "angle_threshold_deg": 30.0
+    }
+}
